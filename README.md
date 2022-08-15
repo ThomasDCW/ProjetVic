@@ -1,2 +1,2 @@
 # ProjetVic
-Reproduction de la landing page https://shoutout.so/
+Reproduction de la landing page https://shoutout.so/, https://vicprojectone.carrd.co/
