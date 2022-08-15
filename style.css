@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: grey;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0em;
+}
+
+/* Style of the header logo, links nad button */
+#headerLogo {
+  width: 100px;
+}
+header {
+  position: fixed;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.427);
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+li {
+  list-style: none;
+  padding: 0.5em;
+  cursor: pointer;
+}
+li:hover {
+  color: black;
+}
+.navLinks {
+  display: flex;
+}
+#navButton {
+  width: 100px;
+  height: 40px;
+  background-color: #f23116;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+#navButton:hover {
+  background-color: rgba(255, 0, 0, 0.571);
+  transition-duration: 1s;
+}
+
+/* style of the 1st article */
+#firstImage {
+  height: 500px;
+  padding: 1.5em;
+  margin-right: 4vw;
+}
+.firstArticle {
+  padding-top: 8vh;
+  display: flex;
+  justify-content: center;
+}
+#firstDivArticle {
+  width: 30vw;
+}
+h2 {
+  padding: 0.5em;
+  color: #44403c;
+  font-size: 2em;
+  font-weight: bold;
+}
+#h2Span {
+  color: #f23116;
+}
+#firstP {
+  padding: 0.5em;
+}
+#trialButton {
+  width: 300px;
+  height: 70px;
+  background-color: #f23116;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+h6 {
+  font-weight: 200;
+  font-size: 0.9em;
+  text-align: center;
+}
+.imageDiv {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+}
+.buttonImage {
+  padding: 0.3em;
+}
+h4 {
+  text-align: center;
+  font-size: 1.4em;
+  color: #44403c;
+}
+.logoImage {
+  margin-top: 4vh;
+  margin-left: 25vw;
+  width: 50vw;
+}
+h5 {
+  text-align: center;
+  font-size: 1.6em;
+  color: #44403c;
+}
+/* style of the card */
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+}
+.cardImage {
+  width: 40%;
+}
+.card {
+  margin: 1em;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.textCard {
+  text-align: center;
+}
+.spanCard {
+  color: #44403c;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+#claimTitle {
+  margin-top: 16vh;
+  font-size: 2em;
+  text-align: center;
+  color: #44403c;
+}
+#claim {
+  font-size: 3em;
+  text-align: center;
+  color: #44403c;
+}
+#claimSubTitle {
+  text-align: center;
+  font-size: 1.2em;
+  text-align: center;
+}
+#botImage {
+  margin-left: 10%;
+  width: 80%;
+}
+footer {
+  margin-top: 4vh;
+  font-size: 1.2em;
+}
